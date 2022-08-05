@@ -24,7 +24,7 @@ def main(image_file):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('image_file', help='The image you\'d like to label.')
     args = parser.parse_args()
     main(args.image_file)
