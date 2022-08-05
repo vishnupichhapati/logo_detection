@@ -1,4 +1,5 @@
 import argparse
+pip install grpcio
 import io
 
 from google.cloud import vision
